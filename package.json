@@ -1,0 +1,11 @@
+{
+  "name": "ITP_exam",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/emiliano-ma/ITP_exam.git",
+  "author": "emiliano-ma <emilianomainero@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^4.12.1"
+  }
+}
