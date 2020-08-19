@@ -6,6 +6,11 @@
   "author": "emiliano-ma <emilianomainero@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "cypress": "^4.12.1"
-  }
+    "cypress": "^4.12.1",
+    "superstatic": "^7.0.0"
+  },
+"scripts": {
+  "start": "superstatic src --port 3001",
+  "cy:open": "yarn start & cypress open"
+}
 }
